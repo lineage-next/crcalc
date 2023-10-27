@@ -18,6 +18,8 @@ sourceSets {
 publishing {
     publications {
         create<MavenPublication>("maven") {
+            from(components["java"])
+
             pom {
                 name.set(rootProject.name)
                 url.set("https://github.com/lineage-next/crcalc")
