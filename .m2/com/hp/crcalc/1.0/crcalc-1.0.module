@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hp",
+    "module": "crcalc",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crcalc-1.0.jar",
+          "url": "crcalc-1.0.jar",
+          "size": 40881,
+          "sha512": "51b7cde888f0b96a64da52a3a4f50b3af580bf963b6a22ad05535ee314b796925a5e43ed6ec0baea5e513a1cad3c21b4aa49c42966b5cec0af84cb38d8b35b19",
+          "sha256": "7980dce7fb488ec8278c2c6ad4f91f0adad3388ef2312227e87ac3f2dcdebfc4",
+          "sha1": "373f84675b42a5d512f64662c40ca96dc2eac1ea",
+          "md5": "21e4e35b300500e702dc2b993bb52914"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "crcalc-1.0.jar",
+          "url": "crcalc-1.0.jar",
+          "size": 40881,
+          "sha512": "51b7cde888f0b96a64da52a3a4f50b3af580bf963b6a22ad05535ee314b796925a5e43ed6ec0baea5e513a1cad3c21b4aa49c42966b5cec0af84cb38d8b35b19",
+          "sha256": "7980dce7fb488ec8278c2c6ad4f91f0adad3388ef2312227e87ac3f2dcdebfc4",
+          "sha1": "373f84675b42a5d512f64662c40ca96dc2eac1ea",
+          "md5": "21e4e35b300500e702dc2b993bb52914"
+        }
+      ]
+    }
+  ]
+}
